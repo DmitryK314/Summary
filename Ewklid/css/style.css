@@ -1560,7 +1560,7 @@ label {
   .navbar__link-mobile:not(:last-child) {
     margin-bottom: 34px;
   }
-  .swiper-container-horizontal>.swiper-pagination-bullets, {
+  .swiper-container-horizontal>.swiper-pagination-bullets {
     bottom: 16px;
   }
   .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
