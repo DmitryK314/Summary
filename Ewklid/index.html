@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="./css/jquery-ui.css">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/normalizecss.css">
+  <link rel="stylesheet" href="./css/style.css">
+
+
+
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="./js/jquery-ui.js"></script>
+  <script>
+    $(function () {
+      $("#accordion").accordion({
+        header: '.questions-list__row',
+        collapsible: true,
+        active: false,
+        heightStyle: "content"
+      });
+    });
+  </script>
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <title>Евклид</title>
+</head>
+
+<body>
+  <header class="section-header">
+    <div class="container section-header__container">
+      <button class="section-header__burger is-active"></button>
+      <div class="header__menu-mobile not-active" aria-hidden="true" tabindex="-1">
+        <ul class="heaer__menu-mobile-list">
+          <li class="navbar__link-mobile">
+            <a href="" class="navbar__link-color-mobile" tabindex="-1">О нас</a>
+          </li>
+          <li class="navbar__link-mobile">
+            <a href="" class="navbar__link-color-mobile" tabindex="-1">Проекты</a>
+          </li>
+          <li class="navbar__link-mobile">
+            <a href="" class="navbar__link-color-mobile" tabindex="-1">Этапы</a>
+          </li>
+          <li class="navbar__link-mobile">
+            <a href="" class="navbar__link-color-mobile" tabindex="-1">Отзывы</a>
+          </li>
+          <li class="navbar__link-mobile">
+            <a href="" class="navbar__link-color-mobile" tabindex="-1">Контакты</a>
+          </li>
+        </ul>
+      </div>
+      <a href="" class="section-header__logo">
+        <img src="./img/evklid-logo-svg.svg" alt="Логотип компании Евклид">
+      </a>
+      <nav class="section-header__navbar">
+        <ul class="section-header__navbar-list">
+          <li class="navbar__link">
+            <a href="" class="navbar__link-color">О нас</a>
+          </li>
+          <li class="navbar__link">
+            <a href="" class="navbar__link-color">Проекты</a>
+          </li>
+          <li class="navbar__link">
+            <a href="" class="navbar__link-color">Этапы</a>
+          </li>
+          <li class="navbar__link">
+            <a href="" class="navbar__link-color">Отзывы</a>
+          </li>
+          <li class="navbar__link">
+            <a href="" class="navbar__link-color">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+      <button aria-label="Поиск" class="btn section-header__btn"></button>
+    </div>
+  </header>
+
+  <main>
+    <h1 class="visually-hidden">
+      Проектные решения любой сложности
+    </h1>
+    <section class="hero-section">
+      <div class="container hero-section__container">
+        <div class="swiper-container">
+          <div class="hero-section__content">
+            <h3 class="hero-content__heading">
+              Проектные решения любой сложности
+            </h3>
+            <p class="hero-content__text">
+              Есть над чем задуматься: базовые сценарии поведения пользователей и по сей день остаются уделом
+              проектантов
+            </p>
+            <button aria-label="заказать расчет" class="btn hero-section__btn">
+              Заказать расчёт
+            </button>
+          </div>
+          <div aria-hidden="true" class="swiper-wrapper">
+            <div class="swiper-slide">
+            </div>
+            <div class="swiper-slide">
+            </div>
+            <div class="swiper-slide">
+            </div>
+          </div>
+          <div aria-hidden="true" class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="aboutus-section">
+      <div class="container aboutus-section__container">
+        <h2 class="aboutus-section__heading">
+          О нас
+        </h2>
+        <p class="aboutus-section__text">
+          Также как перспективное планирование создаёт необходимость включения в производственный план целого ряда
+          внеочередных мероприятий с учётом комплекса экспериментов, поражающих по своей масштабности и грандиозности. А
+          также диаграммы связей могут быть описаны
+          максимально подробно. Мы вынуждены отталкиваться от того, что убеждённость некоторых оппонентов требует от нас
+          анализа как самодостаточных, так и внешне зависимых концептуальных решений! Следует отметить, что
+          высококачественный прототип
+          <span id="myButton" class="aboutus-section__text-title" tabindex="0"></span>
+          будущего проекта
+          предопределяет высокую востребованность позиций, занимаемых участниками в отношении поставленных задач. Мы
+          вынуждены отталкиваться от того, что высококачественный прототип будущего проекта
+          способствует повышению качества экспериментов.
+        </p>
+      </div>
+    </section>
+
+    <section class="aboutusmore-section">
+      <div class="container aboutusmore-section__container">
+        <div class="aboutusmore__first-block">
+          <div class="aboutusmore__first-block-mobile">
+          </div>
+          <div class="first-block__footer">
+            <p class="first-block__footer-text">
+              Принимая во внимание показатели успешности, перспективное планирование способствует подготовке и
+              реализации новых принципов.
+            </p>
+            <button class="first-block__btn">
+              Подробнее
+            </button>
+          </div>
+        </div>
+        <div class="aboutusmore__second-block">
+          <div class="second-block__smallblock">
+            <img src="./img/cube-svg.svg" alt="" class="second-block__smallblock-image-cube">
+            <div class="smallblock__discr">
+              <h3 class="smallblock__text-heading">
+                Консультация с широким активом
+              </h3>
+              <p class="smallblock__text">
+                А также свежий взгляд на привычные вещи - безусловно открывает новые горизонты для как самодостаточных,
+                так и внешне зависимых концептуальных решений.
+              </p>
+            </div>
+          </div>
+          <div class="second-block__smallblock">
+            <img src="./img/gear-svg.svg" alt="" class="second-block__smallblock-image-gear">
+            <div class="smallblock__discr">
+              <h3 class="smallblock__text-heading">
+                В своём стремлении повысить
+              </h3>
+              <p class="smallblock__text">
+                Качество жизни, они забывают, что сплочённость команды профессионалов представляет собой интересный
+                эксперимент проверки прогресса профессионального сообщества.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="howwework-section">
+      <div class="container howwework-section__container">
+        <h2 class="howwework__heading">
+          Как мы работаем
+        </h2>
+        <ul class="howwework__list">
+          <li class="howwework__link"><button aria-label="первый шаг" class="howwework__link-style" data-path="one">1
+              шаг</button></li>
+          <li class="howwework__link"><button aria-label="второй шаг" class="howwework__link-style" data-path="two">2
+              шаг</button></li>
+          <li class="howwework__link"><button aria-label="третий шаг" class="howwework__link-style" data-path="three">3
+              шаг</button></li>
+          <li class="howwework__link"><button aria-label="четвертый шаг" class="howwework__link-style"
+              data-path="four">4 шаг</button></li>
+        </ul>
+        <div class="howwework__consalt consalt-active" data-target="one">
+          <div class="howwework__consalt-first-block">
+            <h3 class="howwework__consalt-heading">
+              Проводим консультацию
+            </h3>
+            <p class="howwework__text">
+              Влечет за собой процесс внедрения и модернизации приоритизации разума над эмоциями. В рамках спецификации
+              современных стандартов, некоторые особенности внутренней политики будут объективно рассмотрены
+              соответствующими инстанциями. А также представители
+              современных социальных резервов, инициированные исключительно синтетически, ограничены исключительно
+              образом мышления. Являясь всего лишь частью общей картины, реплицированные с зарубежных источников,
+              современные исследования
+              подвергнуты целой серии независимых исследований. Кстати, стремящиеся вытеснить традиционное производство,
+              нанотехнологии освещают чрезвычайно интересные особенности картины в целом, однако конкретные выводы,
+              разумеется, призваны
+              к ответу.
+            </p>
+            <button aria-label="подробнее" class="btn howwework__btn_more">
+              Подробнее
+            </button>
+            <button aria-label="договор" class="btn howwework__btn_contract">
+              Договор
+            </button>
+          </div>
+          <div class="howwework__consalt-second-block"></div>
+        </div>
+        <div class="howwework__consalt" data-target="two">
+          <div class="howwework__consalt-first-block">
+            <h2 class="howwework__consalt-heading">
+              Составляем смету
+            </h2>
+            <p class="howwework__text">
+              Внедрения и модернизации приоритизации разума над эмоциями. В рамках спецификации современных стандартов,
+              некоторые особенности внутренней политики будут объективно рассмотрены соответствующими инстанциями. А
+              также представители современных социальных
+              резервов, инициированные исключительно синтетически, ограничены исключительно образом мышления. Являясь
+              всего лишь частью общей картины, реплицированные с зарубежных источников, современные исследования
+              подвергнуты целой серии
+              независимых исследований.
+            </p>
+            <button aria-label="подробнее" class="btn howwework__btn_more">
+              Подробнее
+            </button>
+            <button aria-label="договор" class="btn howwework__btn_contract">
+              Договор
+            </button>
+          </div>
+          <div class="howwework__consalt-second-block second-block__step-two"></div>
+        </div>
+        <div class="howwework__consalt" data-target="three">
+          <div class="howwework__consalt-first-block">
+            <h2 class="howwework__consalt-heading">
+              Привлекаем подрядчиков
+            </h2>
+            <p class="howwework__text">
+              Идейные соображения высшего порядка, а также новая модель организационной деятельности требует анализа
+              прогресса профессионального сообщества. Высокий уровень вовлечения представителей целевой аудитории
+              является четким доказательством простого факта:
+              высококачественный прототип будущего проекта напрямую зависит от дальнейших направлений развития.
+              Разнообразный и богатый опыт говорит нам, что новая модель организационной деятельности говорит о
+              возможностях системы массового
+              участия. Принимая во внимание показатели успешности, постоянное информационно-пропагандистское обеспечение
+              нашей деятельности позволяет выполнить важные задания по разработке прогресса профессионального
+              сообщества.
+            </p>
+            <button aria-label="подробнее" class="btn howwework__btn_more">
+              Подробнее
+            </button>
+            <button aria-label="договор" class="btn howwework__btn_contract">
+              Договор
+            </button>
+          </div>
+          <div class="howwework__consalt-second-block second-block__step-three"></div>
+        </div>
+        <div class="howwework__consalt" data-target="four">
+          <div class="howwework__consalt-first-block">
+            <h2 class="howwework__consalt-heading">
+              Инспектируем все этапы работ
+            </h2>
+            <p class="howwework__text">
+              Высокий уровень вовлечения представителей целАевой аудитории является четким доказательством простого
+              факта: высококачественный прототип будущего проекта напрямую зависит от дальнейших направлений развития.
+              Разнообразный и богатый опыт говорит нам, что
+              новая модель организационной деятельности говорит о возможностях системы массового участия. Принимая во
+              внимание показатели успешности, постоянное информационно-пропагандистское обеспечение нашей деятельности
+              позволяет.
+            </p>
+            <button aria-label="подробнее" class="btn howwework__btn_more">
+              Подробнее
+            </button>
+            <button aria-label="договор" class="btn howwework__btn_contract">
+              Договор
+            </button>
+          </div>
+          <div class="howwework__consalt-second-block second-block__step-four"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="questions-section">
+      <div class="container main-section__container">
+        <h2 class="questions-section___heading">
+          Часто задаваемые вопросы
+        </h2>
+        <ul class="questions-section__list" id="accordion" tabindex="-2">
+          <li class="question-list__item">
+            <div class="questions-list__row">
+              <button class="questions-list_link">Из чего формируется конечная стоимость проекта?</button>
+              <button aria-hidden="true" class="questions-list__btn" tabindex="-1"></button>
+            </div>
+            <div>
+              <p class="question-list__text">Являясь всего лишь частью общей картины, непосредственные участники
+                технического прогресса призывают нас к новым свершениям, которые, в свою очередь, должны быть
+                своевременно верифицированы. Но высококачественный прототип будущего
+                проекта является качественно новой ступенью первоочередных требований. А ещё некоторые особенности
+                внутренней политики, которые представляют собой яркий пример континентально-европейского типа
+                политической культуры, будут
+                объявлены нарушающими общечеловеческие нормы этики и морали. И нет сомнений, что явные признаки победы
+                институционализации призывают нас к новым свершениям, которые, в свою очередь, должны быть указаны как
+                претенденты на
+                роль ключевых факторов. Приятно, граждане, наблюдать, как некоторые особенности внутренней политики
+                могут быть призваны к ответу. Явные признаки победы институционализации набирают популярность среди
+                определенных слоев
+                населения, а значит, должны быть объединены в целые кластеры себе подобных. Банальные, но неопровержимые
+                выводы, а также многие известные личности призывают нас к новым свершениям, которые, в свою очередь,
+                должны быть представлены
+                в исключительно положительном свете. </p>
+            </div>
+          </li>
+          <li class="question-list__item">
+            <div class="questions-list__row">
+              <button class="questions-list_link">У меня есть свой проект. Сможем ли мы его доработать /
+                реализовать?</button>
+              <button aria-hidden="true" class="questions-list__btn" tabindex="-1"></button>
+            </div>
+            <div>
+              <p class="question-list__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor tempore
+                itaque accusantium quis quaerat, tenetur ad repellat neque reiciendis nisi autem commodi blanditiis quos
+                voluptatem velit laboriosam ut error necessitatibus.</p>
+            </div>
+          </li>
+          <li class="question-list__item">
+            <div class="questions-list__row">
+              <button class="questions-list_link">Я выбираю между разными компаниями. В чём ваше отличие?</button>
+              <button aria-hidden="true" class="questions-list__btn" tabindex="-1"></button>
+            </div>
+            <div>
+              <p class="question-list__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor tempore
+                itaque accusantium quis quaerat, tenetur ad repellat neque reiciendis nisi autem commodi blanditiis quos
+                voluptatem velit laboriosam ut error necessitatibus.</p>
+            </div>
+          </li>
+          <li class="question-list__item">
+            <div class="questions-list__row">
+              <button class="questions-list_link">Могу ли я делегировать вам работу / согласование с подрядчиком /
+                организацией?</button>
+              <button aria-hidden="true" class="questions-list__btn" tabindex="-1"></button>
+            </div>
+            <div>
+              <p class="question-list__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor tempore
+                itaque accusantium quis quaerat, tenetur ad repellat neque reiciendis nisi autem commodi blanditiis quos
+                voluptatem velit laboriosam ut error necessitatibus.</p>
+            </div>
+          </li>
+          <li class="question-list__item">
+            <div class="questions-list__row">
+              <button class="questions-list_link">Могу ли я вернуть деньги на каком-либо из этапов работ?</button>
+              <button aria-hidden="true" class="questions-list__btn" tabindex="-1"></button>
+            </div>
+            <div>
+              <p class="question-list__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor tempore
+                itaque accusantium quis quaerat, tenetur ad repellat neque reiciendis nisi autem commodi blanditiis quos
+                voluptatem velit laboriosam ut error necessitatibus.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="section-footer">
+    <div class="section-footer__container container">
+      <div class="section-footer__first-column">
+        <a aria-label="Логотип Евклид" href="#" class="section-footer__logo">
+          <img src="./img/evklid-svg.svg" alt="Логотип Евклид">
+        </a>
+        <ul class="first-column__list">
+          <li class="footer-list__item">
+            <a href="" class="footer-list__item--link">О нас</a>
+          </li>
+          <li class="footer-list__item">
+            <a href="" class="footer-list__item--link">Проекты</a>
+          </li>
+          <li class="footer-list__item">
+            <a href="" class="footer-list__item--link">Отзывы</a>
+          </li>
+          <li class="footer-list__item">
+            <a href="" class="footer-list__item--link">Договор оферты</a>
+          </li>
+          <li class="footer-list__item">
+            <a href="" class="footer-list__item--link">Договор подряда</a>
+          </li>
+          <li class="footer-list__item">
+            <a href="" class="footer-list__item--link">Конфиденциальность</a>
+          </li>
+          <li class="footer-list__item">
+            <a href="" class="footer-list__item--link">Партнерское соглашение</a>
+          </li>
+        </ul>
+        <ul class="first-column__social">
+          <li class="social__icon">
+            <a href="#" class="social__icon_fb"><img src="./img/facebook-svg.svg" alt="Иконка фейсбук"></a>
+          </li>
+          <li class="social__icon">
+            <a href="#" class="social__icon_vk"><img src="./img/vk-svg.svg" alt="Иконка вконтакте"></a>
+          </li>
+          <li class="social__icon">
+            <a href="#" class="social__icon_ig"><img src="./img/instagram-svg.svg" alt="Иконка инстаграм"></a>
+          </li>
+        </ul>
+      </div>
+      <hr class="section-footer__line">
+      <div class="section-footer__second-column">
+        <h3 class="second-column__heading">
+          Оставить заявку
+        </h3>
+        <form action="https://jsonplaceholder.typicode.com/posts" method="POST" autocomplete="on"
+          class="second-column__list">
+          <label>
+            <span class="visually-hidden">Введите ваши Фaмилию, Имя и отчество</span>
+            <input aria-hidden="true" type="text" required placeholder="Фамилия, имя и отчество*" name="name"
+              class="second-column__input">
+          </label>
+          <label>
+            <span class="visually-hidden">Введите ваш эмейл</span>
+            <input aria-hidden="true" type="email" required placeholder="E-mail*" name="E-mail"
+              class="second-column__input">
+          </label>
+          <label>
+            <span class="visually-hidden">Введите сообщение для нас</span>
+            <textarea aria-hidden="true" name="message" cols="30" rows="10" placeholder="Сообщение"
+              class="second-column__input footer__textarea"></textarea>
+          </label>
+          <button class="btn second-column__btn">
+            Отправить данные
+          </button>
+          <input required type="checkbox" name="check" id="check" class="second-column__input--checkbox">
+          <label for="check" class="input__checkbox--label">Согласен на обработку данных</label>
+        </form>
+      </div>
+      <div class="section-footer__third-column">
+        <p class="third-column__text">
+          Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта:
+          разбавленное изрядной долей эмпатии, рациональное мышление позволяет оценить значение модели развития. Таким
+          образом, консультация с широким активом
+          обеспечивает широкому кругу (специалистов) участие в формировании стандартных подходов.
+        </p>
+      </div>
+    </div>
+  </footer>
+  <script src="./js/index.js"></script>
+  <script>
+    var mySwiper = new Swiper('.swiper-container', {
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: 'true'
+      },
+    })
+  </script>
+
+
+  <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
+  <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
+
+  <script src="https://unpkg.com/@popperjs/core@2"></script>
+  <script src="https://unpkg.com/tippy.js@6"></script>
+  <script src="https://unpkg.com/@popperjs/core@2"></script>
+  <script src="https://unpkg.com/tippy.js@6"></script>
+  <script>
+    tippy('#myButton', {
+      content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, itaque! Fugiat debitis ratione consequatur aperiam adipisci suscipit excepturi, deleniti voluptate animi iure aspernatur, vero, unde ab numquam eum exercitationem cum?',
+      interactive: true,
+    });
+  </script>
+</body>
+
+</html>
